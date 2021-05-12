@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="whipped_Cream">Whipped Cream</string>
+    <dimen name="padding">24dp</dimen>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:textSize="45sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What color is the ocean?"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:id="@+id/q1_Answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue"
+                android:checked="true"
+                android:textAppearance="?android:textAppearance"
+                />
+            <RadioButton
+                android:id="@+id/q1_Answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purple"
+                android:checked="false"
+                android:textAppearance="?android:textAppearance"
+                />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center_horizontal"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 2"
+            android:textSize="25sp"
+
+            />
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which is the only U.S. state to begin with the letter 'p'"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:id="@+id/q2_Answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pennsylvania"
+                android:textAppearance="?android:textAppearance"
+                android:checked="false"
+
+                />
+            <RadioButton
+                android:id="@+id/q2_Answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Washington"
+                android:textAppearance="?android:textAppearance"
+                android:checked="false"
+
+                />
+
+            <Button
+                android:id="@+id/submit_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center_horizontal"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 3"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the world's largest ocean?"
+            />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/submit_button3e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+
+
+        <TextView
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 4"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is a color?"
+            />
+
+        <CheckBox
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+
+            />
+        <CheckBox
+            android:id="@+id/purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purple"
+
+            />
+        <CheckBox
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+
+            />
+        <CheckBox
+            android:id="@+id/copper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copper"
+
+            />
+
+
+            <Button
+                android:id="@+id/submit_button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                />
+
+
+        <Button
+            android:id="@+id/submit_buttonScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz Score"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+</ScrollView>
